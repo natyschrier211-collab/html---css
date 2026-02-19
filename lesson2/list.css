@@ -1,0 +1,38 @@
+body {
+    /*רקע*/
+    background-color:rgb(68, 65, 62);
+    /*גופן*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* כיון האתר */
+    direction: rtl;
+}
+
+h1 {
+    /*צבע טקסט*/
+    color: blanchedalmond;
+    /*גודל טקסט*/
+    font-size: 36px;
+    /*יישור טקסט*/
+    text-align: center;
+}
+
+.frame {
+    /*רקע*/
+   background-color: rgb(225, 76, 76);
+/*רוחב */
+   width: 90%;
+/*רוחב מקסימלי*/
+   max-width: 900px;
+   /*גובה התחלתי*/
+   min-height: 500px;
+/*מרכז אלמננט*/
+   margin: auto;
+/*עיגול קצוות*/
+   border-radius: 5px;
+   padding: 12px;
+}
+
+ul {
+   /*סגנון צורה*/
+    list-style-type: lower-roman;
+}

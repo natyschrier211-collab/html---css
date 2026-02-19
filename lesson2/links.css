@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(80, 79, 79);
+}
+a {
+    /* רקע */
+    background-color: rgb(31, 199, 199);
+    /*צבע טקסט */
+    color: rgb(47, 21, 215);
+    /* ריווח פנימי */
+    padding: 8px;
+     /* מצב תצוגה */
+    display:inline-block;
+    /* ביטול קו תחתון */
+    text-decoration:none
+}
+  /*עיצוב שונה בריחוף עם העכבר */
+a:hover {
+    background-color: rgb(131, 127, 163);
+}
+/*עיצוב שונה בלחיצה עם העכבר */
+a:active {
+    font-size: 27px;
+}

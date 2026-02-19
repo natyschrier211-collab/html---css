@@ -1,0 +1,61 @@
+body {
+    /* רקע */
+    background-color: rgb(79, 81, 182);
+    /* גופן */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* כיוון האתר */
+    direction: rtl;
+}
+h1 {
+    /* צבע טקסט */
+    color: rgb(0, 0, 0);
+    /* גודל טקסט */
+    font-size: 36px;
+    /* יישור טקסט */
+    text-align: center;
+}
+.frame {
+    /* רקע */
+    background-color: rgb(108, 91, 139);
+    /* רוחב */
+    width: 90%;
+    /* רוחב מקסימלי */
+    max-width: 900px;
+    /* גובה התחלתי */
+    min-height: 500px;
+    /* מרכוז אלמנט */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 10px;
+    /* ריווח פנימי */
+    padding: 20px;
+}
+
+table {
+ 
+    /*חיבור טבלאות*/
+    border-collapse: collapse;
+    /*רוחב טבלה*/
+    width: 100%;
+    color: rgb(0, 0, 0);
+    /*סידור עמודות*/
+    table-layout: fixed;
+
+}
+
+th, td {
+/*להראות טבלה*/
+    border: 2px solid;
+    /*גובה טבלה*/
+height: 40px;
+/*אזור טקסט*/
+    text-align: center;
+    /*גודל טקסט*/ 
+    font-size: 20px;ֿ
+  
+}
+td:hover {
+background-color: rgb(210, 54, 80);
+}
+
+

@@ -1,0 +1,87 @@
+body {
+    /* רקע */
+    background-color: rgb(55, 47, 79);
+    /* גופן */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* כיוון האתר */
+    direction: rtl;
+    background-image: url(https://ynet-pic1.yit.co.il/cdn-cgi/image/f=auto,w=740,q=75/picserver5/crop_images/2023/04/20/SyP9AtAfh/SyP9AtAfh_0_0_2048_2048_0_x-large.jpg);
+   
+    background-attachment: fixed;
+      
+}
+
+h1 {
+    /* צבע טקסט */
+    color: white;
+    /* גודל טקסט */
+    font-size: 36px;
+    /* יישור טקסט */
+    text-align: center;
+}
+
+h2{
+
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.frame {
+    /* רקע */
+    background-color: white;
+    /* רוחב */
+    width: 90%;
+    /* רוחב מקסימלי */
+    max-width: 300px;
+    /* גובה התחלתי */
+    min-height: 500px;
+    /* מרכוז אלמנט */
+    margin: auto; 
+    /* עיגול קצוות */
+    border-adius: 100px;
+    /* ריווח פנימי */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.field{
+    /* ריווח פנימי */
+    padding: 8px;
+}
+.field input,select {
+    /* רוחב */
+    width: 100%;
+    /* ריווח פנימי */
+    padding: 8px;
+    /* ריווח חיצוני עליון */
+    margin-top: 3px;
+    /* עיגול קצוות */
+    border-radius: 4px;
+    /* גבול */
+    border: 1px solid;
+    /* גודל גופן */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #d2841d;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+textarea {
+width: 100%;
+  min-height: 100px;
+
+}
