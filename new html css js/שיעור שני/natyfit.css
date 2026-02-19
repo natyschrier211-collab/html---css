@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    direction:rtl;
+}
+
+/* ===== HEADER ===== */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#020617;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* ===== HERO ===== */
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#020617,#0ea5e9);
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:#d50fb1;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:8px;
+
+}
+
+/* ===== SECTIONS ===== */
+section{
+    padding:60px 40px;
+    text-align:center;
+}
+
+/* ===== CARDS ===== */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#020617;
+    padding:25px;
+    width:250px;
+    border-radius:12px;
+    transition:0.3s;
+}
+.button:hover {
+     transform:translateY(-8px);
+    background:#020617;
+    box-shadow:0 0 20px #f88538;
+}
+.card:hover{
+    transform:translateY(-8px);
+    background:#020617;
+    box-shadow:0 0 20px #f88538;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#020617;
+    text-align:center;
+    padding:20px;
+}
