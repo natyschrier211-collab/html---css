@@ -1,0 +1,164 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+direction:rtl;
+background:linear-gradient(135deg,#bfdbfe,#ddd6fe);,#f5f3ff);
+color:#0f172a;
+}
+
+.about{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+padding:80px 40px;
+border-bottom:1px solid rgba(0,0,0,0.08); /* קו הפרדה עדין */
+margin-bottom:40px; /* רווח לפני הפרויקטים */
+}
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:linear-gradient(90deg,#dbeafe,#c7d2fe); /* כחול-סגול עדין */
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+border-bottom:1px solid rgba(0,0,0,0.05);
+}
+.logo-area{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+width:42px;
+height:42px;
+border-radius:50%;
+object-fit:cover;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar a{
+text-decoration:none;
+margin-left:20px;
+color:#0f172a;
+font-weight:bold;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#06b6d4;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:100px 40px;
+background:linear-gradient(135deg,#e0f2fe,#ede9fe);
+}
+
+.hero-text h2{
+font-size:45px;
+}
+
+.hero button{
+margin-top:20px;
+padding:14px 35px;
+border:none;
+border-radius:14px;
+background:linear-gradient(90deg,#06b6d4,#8b5cf6);
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.hero button:hover{
+transform:scale(1.1);
+}
+
+.hero-img img{
+width:320px;
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* ABOUT */
+
+.about{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+padding:80px 40px;
+}
+
+.about-img img{
+width:260px;
+height: 260px;
+object-fit: cover;
+border-radius:50%;
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+border: 4px solid white;
+}
+
+/* PROJECTS */
+
+.projects{
+padding:80px 50px;
+background:linear-gradient(180deg,#ffffff,#f1f5f9); /* הפרדה ויזואלית */
+border-radius:40px 40px 0 0;
+}
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+.projects img{
+width:100%;
+aspect-ratio:16/9;   /* 👈 גובה אחיד אמיתי */
+object-fit:cover;
+display:block;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.hero-img img{
+    width:340px;
+    border-radius:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.hero-img img:hover{
+    transform:translateY(-8px) scale(1.02);
+}
+.card img{
+width:100%;
+height:auto;
+object-fit:contain;
+border-radius: 20px 20px 0 0;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 40px rgba(139,92,246,0.25);
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+}
