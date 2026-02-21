@@ -71,7 +71,7 @@ border-radius: 20px;
 font-size:45px;
 }
 
-.hero button{
+.hero-button{
 margin-top:20px;
 padding:14px 35px;
 border:none;
@@ -81,11 +81,11 @@ color:white;
 font-size:16px;
 cursor:pointer;
 transition:0.3s;
+text-decoration: none;
+font-weight: 550;
 }
 
-.hero button:hover{
-transform:scale(1.1);
-}
+
 
 .hero-img img{
  
@@ -95,20 +95,42 @@ box-shadow:0px 20px 40px rgba(0,0,0,0.15);
 }
 
 /* ABOUT */
-
-.about{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:40px;
-padding:70px 50px;
-background-color: linear-gradient(135deg,#f0f4ff,#f9f5ff); /* רקע עדין */
-border-radius: 20px;
-box-shadow: 0 25px 60px rgba(0,0,0,0.06);
-position: relative;
-overflow: hidden;
+.about-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row-reverse; /* 👈 זה מה ששם את התמונה בצד ימין */
+    gap:60px;
+    max-width:1000px;
+    margin:0 auto;
 }
 
+.about-text{
+    background:white;
+    padding:35px 45px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+    max-width:650px;
+    gap: 40px;
+}
+
+
+
+.about{
+    padding: 80px 20px;
+    background: linear-gradient(180deg,#f6f7fb,#eef1f6);
+    text-align:center;
+
+}
+
+
+.about-text h2{
+    margin-bottom:15px;
+}
+
+.about-text p{
+    color:#555;
+}
 
 .about-img img{
 width:280px;
@@ -127,9 +149,9 @@ transform:translateY(-5px) scale(1.03);
 /* PROJECTS */
 
 .projects{
-padding:80px 50px;
+padding:40px 20px;
 background:linear-gradient(180deg,#ffffff,#f1f5f9); /* הפרדה ויזואלית */
-border-radius:20  px;
+border-radius:20px;
 }
 .projects-grid{
 display:grid;
@@ -177,9 +199,62 @@ background-color: rgba(139, 92, 246, 0.25);
 
 }
 
+/* CONTACT */
+
+.contact{
+    padding:40px 20px;
+    text-align:center;
+background:linear-gradient(135deg,#e0f2fe,#ede9fe);
+font-weight: 550;
+border-radius: 20px;
+}
+
+.contact h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.contact-form{
+    max-width:500px;
+    margin:30px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:14px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-form textarea{
+    min-height:100px;
+    resize:none;
+}
+
+.contact-form button{
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(90deg,#8b5cf6,#06b6d4);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
 /* FOOTER */
 
 footer{
 text-align:center;
-padding:40px;
+padding:30px;
 }
