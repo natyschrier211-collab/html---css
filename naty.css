@@ -1,0 +1,334 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+direction:rtl;
+background:linear-gradient(135deg,#bfdbfe,#ddd6fe);,#f5f3ff);
+color:#0f172a;
+}
+
+
+ }
+.about{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+padding:80px 40px;
+border-bottom:1px solid rgba(0,0,0,0.08); /* קו הפרדה עדין */
+margin-bottom:40px; /* רווח לפני הפרויקטים */
+}
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:linear-gradient(90deg,#dbeafe,#c7d2fe); /* כחול-סגול עדין */
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+border-bottom:1px solid rgba(0,0,0,0.05);
+}
+.logo-area{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+width:42px;
+height:42px;
+border-radius:50%;
+object-fit:cover;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar a{
+text-decoration:none;
+margin-left:20px;
+color:#0f172a;
+font-weight:bold;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#06b6d4;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:100px 40px;
+background:linear-gradient(180deg,#196bbd,#f1f5f9);
+border-radius: 20px;
+
+}
+
+.hero-text h2{
+
+font-size:45px;
+}
+
+.hero-button{
+margin-top:20px;
+padding:14px 35px;
+border:none;
+border-radius: 14px;
+background:linear-gradient(90deg,#06b6d4,#8b5cf6);
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+text-decoration: none;
+font-weight: 550;
+}
+
+
+
+.hero-img img{
+ 
+width:320px;
+border-radius:30px;
+box-shadow:0px 20px 40px rgba(0,0,0,0.15);
+}
+
+/* ABOUT */
+.about-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row-reverse; /* 👈 זה מה ששם את התמונה בצד ימין */
+    gap:60px;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.about-text{
+    background:white;
+    padding:35px 45px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+    max-width:650px;
+    gap: 40px;
+}
+
+
+
+.about{
+    padding: 50px 50px;
+    background: linear-gradient(135deg,#bfdbfe,#ddd6fe);,#f5f3ff);
+    text-align:center;
+
+}
+
+
+.about-text h2{
+    margin-bottom:15px;
+}
+
+.about-text p{
+    color:#555;
+ 
+}
+
+
+.about-img img{
+    display: block;
+    margin: 0 auto;
+ border: 1px solid black;
+width:280px;
+height: 280px;
+object-fit: cover;
+border-radius:50%;
+box-shadow:0 10px 25px rgba(0,0,0,0.08)
+0 20px 50px rgba(139, 92, 246, 0.15);
+transition: 0.4s;
+   text-align:center;
+}
+.about-img img:hover{ 
+transform:translateY(-5px) scale(1.03);
+}
+
+.social-links img {
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+  object-fit: cover;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+}
+.social-links{
+    display:flex;
+    justify-content: center;
+    gap:20px;        /* רווח בין האייקונים */
+    align-items:center;
+}
+.icon-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center; /* מרכז טקסט מתחת לאייקון */
+}
+
+.icon-item img{
+    width:50px;
+    height:50px;
+}
+.social-links a{
+ 
+    text-decoration:none;
+    font-size:22px;
+    width:45px;
+    height:45px;
+    background:rgb(255, 255, 255);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.social-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.icon-text {
+     margin-top:6px;
+    padding:4px 10px;
+    font-size:13px;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(135deg,#7b5cff,#4ecdc4);
+    border-radius:20px;
+    display:inline-block;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+.icon-text:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.2);
+    letter-spacing:0.5px;
+}
+/* Hover מקצועי */
+.social-links a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+/* PROJECTS */
+
+.projects{
+padding:40px 20px;
+background:linear-gradient(180deg,#f1f5f9,#196bbd); /* הפרדה ויזואלית */
+border-radius:20px;
+}
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:35px;
+}
+.projects img{
+width:100%;
+aspect-ratio:16/9;   /* 👈 גובה אחיד אמיתי */
+object-fit:cover;
+display:block;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.hero-img img{
+    width:340px;
+    border-radius:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.hero-img img:hover{
+    transform:translateY(-8px) scale(1.02);
+  
+}
+.card img{
+width:100%;
+height:auto;
+object-fit:contain;
+border-radius: 20px 20px 0 0;
+}
+
+.card:hover{
+transform:translatey(-10px);
+box-shadow:0 15px 40px rgba(33, 35, 33, 0.25);
+transition: 0.3s;
+background-color: rgba(139, 92, 246, 0.25);
+
+}
+
+/* CONTACT */
+
+.contact{
+    padding:40px 20px;
+    text-align:center;
+background:linear-gradient(135deg,#bfdbfe,#ddd6fe);,#f5f3ff);
+font-weight: 550;
+border-radius: 20px;
+}
+
+.contact h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.contact-form{
+    max-width:500px;
+    margin:30px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:14px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-form textarea{
+    min-height:100px;
+    resize:none;
+}
+
+.contact-form button{
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(90deg,#8b5cf6,#06b6d4);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+
+footer{
+   background:linear-gradient(180deg,#ffffff,#f1f5f9);
+text-align:center;
+padding:10px;
+}
